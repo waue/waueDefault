@@ -8,14 +8,17 @@
   "main": [
         "index.html",
         "js/main.js"
-    ],
+  ],
   "keywords": [
     "scss",
     "html5"
   ],
   "license": "MIT",
   "homepage": "waue.net",
-  "private": true,
+  "private": false,
+  "devDependencies": {
+        "jquery": "1.10.2"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
