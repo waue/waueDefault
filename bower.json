@@ -21,7 +21,7 @@
   },
   "dependencies": {
         "jquery": "latest",
-        "jqueryui": "latest",
+        "jquery.ui": "latest",
         "modernizr": "latest",
         "selectivizr": "latest",
         "respond": "latest"
