@@ -20,11 +20,11 @@
         "jquery": "1.10.2"
   },
   "dependencies": {
-        "jquery": ,
-        "jqueryui": ,
-        "modernizr": ,
-        "selectivizr": ,
-        "respond": 
+        "jquery": "latest",
+        "jqueryui": "latest",
+        "modernizr": "latest",
+        "selectivizr": "latest",
+        "respond": "latest"
   },
   "ignore": [
     "**/.*",
