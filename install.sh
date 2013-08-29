@@ -37,8 +37,8 @@ if ! which  jam >/dev/null; then
     echo 'Error: Jam is not installed (http://jamjs.org) - Abbording'
 #jam ist installiert->pakete werden installiert (jquery, modernizr, ...)
 else
-	#installjam jquery
-	#installjam modernizr
+	installjam jquery
+	installjam modernizr
 	echo -n "Install another package? Yes[Packagename]/NO[n]"
 	read p
 	if [ ${p} != "n" ];	then
