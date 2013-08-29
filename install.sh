@@ -32,7 +32,7 @@ echo -n "Install $1? Yes[Enter] No[n]:"
 #JAM http://jamjs.org
 ######
 #test ob jam installiert ist
-cd ./js
+cd ./website/js
 if ! which  jam >/dev/null; then
     echo 'Error: Jam is not installed (http://jamjs.org) - Abbording'
 #jam ist installiert->pakete werden installiert (jquery, modernizr, ...)
