@@ -32,25 +32,25 @@ echo -n "Install $1? Yes[Enter] No[n]:"
 #JAM http://jamjs.org
 ######
 #test ob jam installiert ist
-cd ./website/js
-if ! which  jam >/dev/null; then
-    echo 'Error: Jam is not installed (http://jamjs.org) - Abbording'
+#cd ./website/js
+#if ! which  jam >/dev/null; then
+ #   echo 'Error: Jam is not installed (http://jamjs.org) - Abbording'
 #jam ist installiert->pakete werden installiert (jquery, modernizr, ...)
-else
-	installjam jquery
-	installjam modernizr
-	echo -n "Install another package? Yes[Packagename]/NO[n]"
-	read p
-	if [ ${p} != "n" ];	then
-	 installjam $p 
-	fi
-fi
+#else
+#	installjam jquery
+#	installjam modernizr
+#	echo -n "Install another package? Yes[Packagename]/NO[n]"
+#	read p
+#	if [ ${p} != "n" ];	then
+#	 installjam $p 
+#	fi
+#fi
 
 
 ##########
 # Compass
 ##########
-cd ../css
+cd ./website/css
 if ! which  compass >/dev/null; then
     echo 'Error: Compass is not installed (http://compass-style.org/) - Abbording'
 #compass ist installiert->wird initziert
