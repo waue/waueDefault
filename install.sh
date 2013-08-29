@@ -55,9 +55,9 @@ if ! which  compass >/dev/null; then
     echo 'Error: Compass is not installed (http://compass-style.org/) - Abbording'
 #compass ist installiert->wird initziert
 else
-echo -n "Init compass? Yes[]/NO[n]"
+echo -n "Init compass? Yes[y]/NO[n]"
 	read p
-	if [ ${p} != "n" ];	then
+	if [ ${p} = "y" ];	then
 	 	compass  init > /dev/null
 		#mv styles.scss sass/screen.scss
 	fi
