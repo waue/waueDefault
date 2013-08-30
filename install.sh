@@ -62,6 +62,15 @@ echo -n "Init compass? Yes[y]/NO[n]"
 		#mv styles.scss sass/screen.scss
 	fi
 	#todo:jetzt müsste noch eine default struktur ins sass verzeichnis kopiert werden
+	
+cd ../js/
+mkdir lib
+cd lib
+ln -s ../../../../jquery/ jquery
+ln -s ../../../../jquery.ui/ jquery.ui
+ln -s ../../../../modernizr/ modernizr
+ln -s ../../../../respond/ respond
+ln -s ../../../../selectivizr/ selectivizr
 exit
 
 
