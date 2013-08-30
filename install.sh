@@ -50,7 +50,7 @@ echo -n "Install $1? Yes[Enter] No[n]:"
 ##########
 # Compass
 ##########
-cd ./website/css
+cd ./css
 if ! which  compass >/dev/null; then
     echo 'Error: Compass is not installed (http://compass-style.org/) - Abbording'
 #compass ist installiert->wird initziert
